@@ -1,4 +1,4 @@
-baseURL: https://www.chirpyhire.com/
+baseURL: /
 languageCode: en-us
 title: Chirpy Hire
 theme: hugo-fresh
