@@ -1,0 +1,25 @@
+version: 2
+jobs:
+  hugo-publish-job:
+    parallelism: 1
+    # To see the list of pre-built images that CircleCI provides for most common languages see
+    # https://circleci.com/docs/2.0/circleci-images/
+    docker:
+    - image: circleci/python:3.7-stretch-node-browsers
+    steps:
+    - checkout
+    - run: bash ./ci-install-hugo.sh
+    - run: sudo pip install -r requirements.txt
+    - run: pygmentize -V
+    - run: ./hugo -v --cleanDestinationDir
+    - run: aws --region=us-east-1 --acl=public-read s3 sync public/ s3://www.chirpyhire.com/ --exclude circle.yml --exclude .git --delete
+
+workflows:
+  version: 2
+  # the publish workflow runs on merge to master, and publishes right away
+  publish:
+    jobs:
+      - hugo-publish-job:
+          filters:
+            branches:
+              only: master
