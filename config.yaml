@@ -9,7 +9,7 @@ params:
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Smart. Modern. Hiring.
+    title: Hire Smarter
     # Hero subtitle (optional)
     subtitle: Streamline your job applicant screening process with text messages.
     # Button text
