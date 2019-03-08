@@ -17,7 +17,7 @@ params:
     # Where the main hero button links to
     buttonlink: "#"
     # Hero image (from /images/___)
-    image: illustrations/worker.svg
+    image: illustrations/chirpy-hire-phone-demo.svg
     # Footer logos (from /images/logos/clients/___.svg)
     clientlogos:
     - systek
