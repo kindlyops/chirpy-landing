@@ -6,10 +6,10 @@ theme: hugo-fresh
 params:
   font:
     name: "Open Sans"
-    sizes: [400,600]
+    sizes: [300,500]
   hero:
     # Main hero title
-    title: Hire. Smarter.
+    title: The modern way to hire smart.
     # Hero subtitle (optional)
     subtitle: Streamline your job applicant screening process with text messages.
     # Button text
@@ -17,7 +17,7 @@ params:
     # Where the main hero button links to
     buttonlink: "#"
     # Hero image (from /images/___)
-    image: illustrations/worker.svg
+    image: /Chirpy-Demo.gif
     # Footer logos (from /images/logos/clients/___.svg)
     clientlogos:
     - systek
@@ -79,38 +79,41 @@ params:
       - text: App settings
         url: /
   section1:
-    title: Great power comes
-    subtitle: with great responsibility
+    title: Easy to use
+    subtitle: Simplifying your hiring process never felt so.... simple.
     tiles:
-    - title: App builder
+    - title: 1
       icon: mouse-globe
-      text: This is some explanatory text that is on two rows
+      text: ...
       url: /
       buttonText: Free trial
-    - title: Cloud integration
+    - title: 2
       icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
+      text: ...
       url: /
       buttonText: Get started
-    - title: Add-ons & plugins
+    - title: 3
       icon: plug-cloud
-      text: This is some explanatory text that is on two rows
+      text: ...
       url: /
       buttonText: Get started
   section2:
-    title: You're here because you want the best
-    subtitle: And we know it
+    title: Humans prefer to text.
+    subtitle: It only makes sense that we would utilize this method of communication when it comes to recruiting qualified people.
     features:
-    - title: Powerful and unified interface
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: Texting is the number 1 method of communication for Americans under 50.
+      text:
       # Icon (from /images/illustrations/icons/___.svg)
-      icon: laptop-globe
-    - title: Cross-device synchronisation
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: doc-sync
-    - title: Nomad system
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: mobile-feed
+      icon: one
+    - title: 5 Billion people have access to sending and recieving text messages.
+      text:
+      icon: five-billion
+    - title: 78% of US consumers say receiving a text message is the fastest way to reach them.
+      text:
+      icon: seventy-eight
+    - title: Smart phone users send and receive 5 times more texts than they do phone calls.
+      text:
+      icon: five-times
   section3:
     title: One platform
     subtitle: To rule them all
