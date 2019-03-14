@@ -20,11 +20,11 @@ params:
     image: /Chirpy-Demo.gif
     # Footer logos (from /images/logos/clients/___.svg)
     clientlogos:
-    - systek
-    - tribe
-    - kromo
-    - infinite
-    - gutwork
+    #- systek
+    #- tribe
+    #- kromo
+    #- infinite
+    #- gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: Sign in
@@ -73,7 +73,7 @@ params:
       text: We give you a local number to share with applicants.
       url: https://calendly.com/knmurphy/chirpydemo
       buttonText: Get yours today
-    - title: Question
+    - title: Screen
       icon: icon-questions
       text: Create custom screening questions for them to answer.
       url: https://calendly.com/knmurphy/chirpydemo
@@ -104,11 +104,11 @@ params:
     title: Meet Chirpy
     subtitle: Hire better people faster and in an organized way.
     image: illustrations/mockups/chirpy-mockup.png
-    buttonText: Get started
+    buttonText: Talk with our Senior Product Manager
     buttonLink: https://calendly.com/knmurphy/chirpydemo
-  section4:
-    title: Recruiters love Chirpy Hire
-    subtitle: We've helped businesses large and small to streamline discovering their most valuable asset... People.
+  #section4:
+    #title: Recruiters love Chirpy Hire
+    #subtitle: We've helped businesses large and small to streamline discovering their most valuable asset... People.
     clients:
     - name: Irma Walters
       quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
