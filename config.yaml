@@ -15,7 +15,7 @@ params:
     # Main hero title
     title: The modern way to hire smart.
     # Hero subtitle (optional)
-    subtitle: Streamline your job applicant screening process with text messages.
+    subtitle: Streamline your job applicant screening process automatically with text messages.
     # Button text
     buttontext: Try it free!
     # Where the main hero button links to
@@ -77,7 +77,7 @@ params:
     title: Meet Chirpy
     subtitle: Hire better people faster and in an organized way.
     image: illustrations/mockups/chirpy-mockup.png
-    buttonText: Talk with our Senior Product Manager
+    buttonText: Contact our Team
     buttonLink: https://calendly.com/knmurphy/chirpydemo
   #section4:
     #title: Recruiters love Chirpy Hire
