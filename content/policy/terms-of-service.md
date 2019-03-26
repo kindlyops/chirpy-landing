@@ -1,5 +1,6 @@
 ---
 title: "Chirpy Terms of Service & Regulatory Guidelines"
+subtitle: "Last Updated: September 14th, 2017"
 date: 2019-03-26T11:37:59-07:00
 draft: false
 ---
@@ -8,14 +9,14 @@ draft: false
 
 Chirpy currently operates in the United States of America. The country has marketing guidelines set forth by the Bureau of Consumer Protection (BCP), Federal Communication Commission (FCC) and the Mobile Marketing Association (MMA). Chirpy is not liable for potential variance, misinterpretation, inaccuracies, or inconsistencies which may appear on pages outside of our domain. Chirpy is also not liable for penalties incurred in the event of a violation of the CAN-SPAM Act, Telephone Consumer Protection Act (TCPA) or violations of other government regulations resulting in penalty.
 
-- [Federal Communications Commission – Telephone Consumer Protection Act (TCPA)](https://www.fcc.gov/guides/spam-unwanted-text-messages-and-email)
-- [Bureau of Consumer Protection – CAN-SPAM Act : A Compliance Guide for Business](http://www.business.ftc.gov/documents/bus61-can-spam-act-compliance-guide-business)
-- [Mobile Marketing Association – Code of Conduct for Mobile Marketing](http://www.mmaglobal.com/policies/code-of-conduct)
+[Federal Communications Commission – Telephone Consumer Protection Act (TCPA)](https://www.fcc.gov/guides/spam-unwanted-text-messages-and-email)
+[Bureau of Consumer Protection – CAN-SPAM Act : A Compliance Guide for Business](http://www.business.ftc.gov/documents/bus61-can-spam-act-compliance-guide-business)
+[Mobile Marketing Association – Code of Conduct for Mobile Marketing](http://www.mmaglobal.com/policies/code-of-conduct)
 
 _Last Updated: September 14th, 2017_
 CHIRPY, LLC ("CHIRPY") IS WILLING TO GRANT YOU RIGHTS TO ESTABLISH AN ACCOUNT AND TO USE THE SERVICES PROVIDED BY THIS SITE ONLY UPON THE CONDITION THAT YOU ACCEPT ALL OF THE TERMS CONTAINED IN THIS AGREEMENT. PLEASE READ THE TERMS CAREFULLY. BY CLICKING ON "I ACCEPT", YOU WILL INDICATE YOUR AGREEMENT WITH THEM. IF YOU ARE ENTERING INTO THIS AGREEMENT ON BEHALF OF A COMPANY OR OTHER LEGAL ENTITY OR PERSON, YOUR ACCEPTANCE REPRESENTS THAT YOU HAVE THE AUTHORITY TO BIND SUCH ENTITY OR PERSON TO THESE TERMS. IF YOU DO NOT AGREE WITH THESE TERMS, OR IF YOU DO NOT HAVE THE AUTHORITY TO BIND YOUR ENTITY OR PERSON, THEN CHIRPY IS UNWILLING TO GRANT YOU RIGHTS TO ESTABLISH AN ACCOUNT AND TO USE THE SERVICES PROVIDED BY THIS SITE.
 
-Effective Date: September 6, 2017
+_Effective Date: September 6, 2017_
 
 To review material modifications and their effective dates scroll to the bottom of the page.
 

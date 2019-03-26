@@ -1,11 +1,9 @@
 ---
 title: "Privacy Policy"
+subtitle: "Effective Date: September 6th, 2017"
 date: 2019-03-26T11:37:59-07:00
 draft: false
 ---
-
-
-_Effective Date: September 6th, 2017_
 
 To review material modifications and their effective dates scroll to the bottom of the page.
 

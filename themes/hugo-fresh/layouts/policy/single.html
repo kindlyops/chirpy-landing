@@ -11,21 +11,7 @@
       <div id="status"></div>
     </div>
 
-    {{ block "main" . }}
-
-   <section class="section is-medium">
-  <div class="container">
-    <div class="columns">
-      <div class="column is-centered-tablet-portrait">
-        <h1 class="title section-title">{{ .Title }}</h1>
-        <h5 class="subtitle is-5 is-muted">{{ .Params.Subtitle }}</h5>
-        <div class="divider"></div>
-      </div>
-    </div>
-    {{ .Content }}
-  </div>
-</section>
-
+    {{ partial "single/single.html" . }}
 
     <!-- Back To Top Button -->
     <div id="backtotop"><a href="#"></a></div>
@@ -34,8 +20,7 @@
     {{ partial "single/sidebar.html" . }}
     {{ end }}
 
-    {{ end }}
-
+    {{ partial "footer.html" . }}
     {{ partial "javascript.html" . }}
   </body>
 </html>
