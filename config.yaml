@@ -107,31 +107,12 @@ params:
       icon: facebook
     - link: https://linkedin.com/chirpyhire
       icon: linkedin
+    quicklinks:
+      column1:
+        title: "Legal"
+        links:
+        - text: Privacy Policy
+          link: /policy/privacy/
+        - text: Terms of Service
+          link: /policy/terms-of-service/
     bulmalogo: false
-    product:
-    - text: Discover features
-      link: /
-    - text: Why choose our product?
-      link: /
-    - text: Compare features
-      link: /
-    - text: Our roadmap
-      link: /
-    - text: Request features
-      link: /
-    docs:
-    - text: Get started
-      link: /
-    - text: User guides
-      link: /
-    - text: Admin guide
-      link: /
-    - text: Developers
-      link: /
-    blogroll:
-    - text: Latest news
-      link: /
-    - text: Tech articles
-      link: /
-    - text: Video blog
-      link: /
