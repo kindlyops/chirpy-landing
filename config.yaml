@@ -2,6 +2,7 @@ baseURL: /
 languageCode: en-us
 title: Chirpy Hire
 theme: hugo-fresh
+googleAnalytics: UA-73657458-2
 
 params:
   # Logo (from /images/logos/___)
