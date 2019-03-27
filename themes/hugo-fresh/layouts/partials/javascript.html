@@ -5,8 +5,8 @@
 <script src="{{ "js/jquery.panelslider.min.js" | absURL }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 <script>
-jQuery.scrollDepth({
-  userTiming: false
+jQuery(function() {
+  jQuery.scrollDepth();
 });
 </script>
 {{ if not .Site.IsServer }}
