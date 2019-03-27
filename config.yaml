@@ -119,8 +119,6 @@ params:
       column2:
         title: "Contact Us"
         links:
-        - text: Speak with Sales
-          link: mailto:hello@chirpyhire.com
         - text: Support
           link:
           id: 'support'
