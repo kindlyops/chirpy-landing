@@ -116,4 +116,12 @@ params:
           link: /policy/privacy/
         - text: Terms of Service
           link: /policy/terms-of-service/
+      column2:
+        title: "Contact Us"
+        links:
+        - text: Speak with Sales
+          link: mailto:hello@chirpyhire.com
+        - text: Support
+          link:
+          id: 'support'
     bulmalogo: false
