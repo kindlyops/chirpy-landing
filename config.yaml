@@ -98,7 +98,7 @@ params:
       img: 3
   footer:
     # Logo (from /images/logos/___)
-    logo: chirpy-logo.svg
+    logo: footer-logo.png
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
       # Icons are from Font Awesome
