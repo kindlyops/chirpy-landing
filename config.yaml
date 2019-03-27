@@ -20,7 +20,7 @@ params:
     # Button text
     buttontext: Try it free!
     # Where the main hero button links to
-    buttonlink: https://calendly.com/knmurphy/chirpydemo
+    buttonlink: "#"
     # Hero image (from /images/___)
     image: /Chirpy-Demo.gif
     # Footer logos (from /images/logos/clients/___.svg)
@@ -122,4 +122,4 @@ params:
         - text: Support
           link:
           id: 'support'
-    bulmalogo: false
+    bulmalogo: true
