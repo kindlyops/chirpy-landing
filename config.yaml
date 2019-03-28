@@ -41,22 +41,17 @@ params:
   section1:
     title: Completely Automatic
     subtitle: Simplifying your hiring process never felt so.... simple.
+    buttonText: Start Your Free Trial
     tiles:
     - title: Sign Up
       icon: icon-phone
       text: We give you a local number to share with applicants.
-      url: https://calendly.com/knmurphy/chirpydemo
-      buttonText: Get yours today
     - title: Screen
       icon: icon-questions
       text: Create custom screening questions for them to answer.
-      url: https://calendly.com/knmurphy/chirpydemo
-      buttonText: Get started now
     - title: Hire
       icon: icon-hand-shake
       text: Automatically schedule pre-screened interviews via text.
-      url: https://calendly.com/knmurphy/chirpydemo
-      buttonText: Try free today
   section2:
     title: Humans prefer to text.
     subtitle: It only makes sense that we would utilize this method of communication when it comes to recruiting qualified people.
@@ -79,7 +74,6 @@ params:
     subtitle: Hire better people faster and in an organized way.
     image: illustrations/mockups/chirpy-mockup.png
     buttonText: Contact our Team
-    buttonLink: https://calendly.com/knmurphy/chirpydemo
   #section4:
     #title: Recruiters love Chirpy Hire
     #subtitle: We've helped businesses large and small to streamline discovering their most valuable asset... People.
