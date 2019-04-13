@@ -21,7 +21,7 @@
             <ul class="link-list">
               {{- range .links }}
               <li>
-                <a {{ with .id }} id="{{ .}}" {{ end }} href="{{ .link }}">
+                <a {{ with .id }} id="{{ .}}" {{ end }} {{ with .target }} target="{{ .}}" {{ end }}href="{{ .link }}">
                   {{ .text }}
                 </a>
               </li>

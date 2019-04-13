@@ -116,4 +116,8 @@ params:
         - text: Support
           link:
           id: 'support'
+        - text: Help Center
+          link: https://intercom.help/chirpyhire/faqs
+          id: 'help-center'
+          target: '_blank'
     bulmalogo: true
