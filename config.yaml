@@ -60,7 +60,7 @@ params:
       text:
       # Icon (from /images/illustrations/icons/___.svg)
       icon: one
-    - title: 5 Billion people have access to sending and recieving text messages.
+    - title: 5 Billion people have access to sending and receiving text messages.
       text:
       icon: five-billion
     - title: 78% of US consumers say receiving a text message is the fastest way to reach them.
