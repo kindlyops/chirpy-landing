@@ -2,13 +2,44 @@
 <script src="https://unpkg.com/feather-icons"></script>
 <script src="{{ "js/fresh.js" | absURL }}"></script>
 <script src="{{ "js/jquery.scrolldepth.min.js" | absURL }}"></script>
-<script src="{{ "js/jquery.panelslider.min.js" | absURL }}"></script>
+<script src="{{ "js/bulma-carousel.min.js" | absURL }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script src="{{ "js/jquery.panelslider.min.js" | absURL }}"></script>
 <script>
 jQuery(function() {
   jQuery.scrollDepth();
 });
 </script>
+
+<script>
+// bulma carousel initialization 
+// Initialize all div with carousel class
+var carousels = bulmaCarousel.attach('.carousel', options);
+
+// Loop on each carousel initialized
+for(var i = 0; i < carousels.length; i++) {
+	// Add listener to  event
+	carousels[i].on('before:show', state => {
+		console.log(state);
+	});
+}
+
+// Access to bulmaCarousel instance of an element
+var element = document.querySelector('#postcard-slider');
+if (element && element.bulmaCarousel) {
+	// bulmaCarousel instance is available as element.bulmaCarousel
+	element.bulmaCarousel.on('before-show', function(state) {
+		console.log(state);
+	});
+}
+</script>
+<script>
+			bulmaCarousel.attach('#carousel-demo', {
+				slidesToScroll: 1,
+				slidesToShow: 4
+			});
+</script>
+
 {{ if not .Site.IsServer }}
   <script>
     window.intercomSettings = {
