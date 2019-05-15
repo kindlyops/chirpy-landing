@@ -1,0 +1,17 @@
+{{ "<!-- ENTERING partial image-slider.html -->" | safeHTML }}
+
+{{ with .Page.Resources.Match "*.jpg" }}
+<div class="glider-contain">
+  <div class="glider">
+  {{ range . }}
+  {{ $scaled := .Resize "800x" }}
+    <div>
+    <img src="{{ $scaled.RelPermalink }}" alt="eSolia Gallery Screenshot or Photo"/>
+    </div>
+{{ end }}
+    </div>
+  <button role="button" aria-label="Previous" class="glider-prev">«</button>
+  <button role="button" aria-label="Next" class="glider-next">»</button>
+  <div role="tablist" class="dots"></div>
+</div>
+{{ end }}

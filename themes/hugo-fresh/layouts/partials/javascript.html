@@ -11,13 +11,12 @@ jQuery(function() {
 });
 </script>
 
-
 <script>
-			bulmaCarousel.attach('#postcard-slider', {
-				slidesToScroll: 1,
-				slidesToShow: 1
-			});
-</script>
+bulmaCarousel.attach('#postcard-slider', {
+			slidesToScroll: 1,
+			slidesToShow: 1
+		});
+ </script>
 
 {{ if not .Site.IsServer }}
   <script>
