@@ -15,3 +15,57 @@
 <link rel="stylesheet" type="text/css" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 {{- end }}
 <link rel="stylesheet" type="text/css" href="{{ "css/icons.css" | absURL }}">
+<link rel="stylesheet" type="text/css" href="{{ "css/glider.min.css" | absURL }}">
+<style>
+
+.bd-book-banner {
+background-color: white;
+position: relative;
+}
+
+.bd-book-columns {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1080px;
+}
+
+.bd-book-cover {
+    padding-top: .75rem;
+    padding-right: 1rem;
+    position: relative;
+    text-align: center;
+}
+
+.bd-book-cover img {
+ box-shadow: 0 1.5rem 1.5rem -1.25rem rgba(10,10,10,.05);
+}
+
+.bd-book-content, .bd-footer-star, .bd-footer-support {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 1.5rem 1.5rem -1.25rem rgba(10,10,10,.05);
+    display: block;
+}
+
+.bd-book-content {
+    box-shadow: 0 3rem 3rem -1rem rgba(10,10,10,.2);
+    max-width: 520px;
+    padding: 3rem;
+}
+
+.bd-book-header .tag {
+    position: absolute;
+    right: calc(100% + -36.25rem);
+    top: .5rem;
+}
+
+.bd-book-cover .tag {
+    position: absolute;
+    right: calc(100% + -2.25rem);
+    top: 1.5rem;
+}
+
+</style>
