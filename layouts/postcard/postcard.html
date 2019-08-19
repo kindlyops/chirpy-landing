@@ -4,12 +4,20 @@
     {{ partial "meta.html" . }}
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
     {{ partial "css.html" . }}
+
   </head>
   <body>
     <!-- Preloader -->
     <div id="preloader">
       <div id="status"></div>
     </div>
+
+    <!-- theme debugging -->
+    {{/* partial "debugprint.html" .Params */}}
+    {{/* partial "debugprint.html" site */}}
+    {{/* partial "debugprint.html" .Resources */}}
+    {{/* partial "debugprint.html" .File */}}
+    <!-- end theme debugging -->
 
 {{ block "main" . }}
 
