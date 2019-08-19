@@ -1,8 +1,17 @@
-baseURL: /
 languageCode: en-us
-title: Chirpy Hire
-#theme: hugo-fresh
-theme: hugo-bare-min-theme
+languages:
+  en:
+    baseURL: /
+    title: Chirpy Hire
+    weight: 1
+
+theme:
+- hugo-debugprint
+- hugo-fresh
+
+disableKinds:
+  - taxonomyTerm
+
 googleAnalytics: UA-73657458-2
 
 enableEmoji: true
