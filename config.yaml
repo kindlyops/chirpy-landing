@@ -1,8 +1,15 @@
 baseURL: /
 languageCode: en-us
 title: Chirpy Hire
-theme: hugo-fresh
+#theme: hugo-fresh
+theme: hugo-bare-min-theme
 googleAnalytics: UA-73657458-2
+
+enableEmoji: true
+enableGitInfo: true
+disableFastRender: true
+
+
 
 params:
   # Logo (from /images/logos/___)
