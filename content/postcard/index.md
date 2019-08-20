@@ -3,8 +3,7 @@ title: "Free Hiring Event Postcard"
 subtitle: "We'll customize for your event!"
 date: 2019-03-26T11:37:59-07:00
 draft: false
-type: postcard
-layout: postcard
+layout: form
 ---
 
 We'll even send you a custom print ready PDF! 🎁
