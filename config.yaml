@@ -11,6 +11,7 @@ theme:
 
 disableKinds:
   - taxonomyTerm
+  - section
 
 googleAnalytics: UA-73657458-2
 
