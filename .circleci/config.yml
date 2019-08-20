@@ -12,7 +12,7 @@ jobs:
     - run: bash ./ci-install-hugo.sh
     - run: sudo pip install -r requirements.txt
     - run: pygmentize -V
-    - run: ./hugo -v --cleanDestinationDir
+    - run: ./hugo --gc --minify --debug --verbose --ignoreCache --cleanDestinationDir
     - run: aws --region=us-east-1 --acl=public-read s3 sync public/ s3://www.chirpyhire.com/ --exclude circle.yml --exclude .git --delete
 
 workflows:
